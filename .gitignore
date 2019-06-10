@@ -1,6 +1,10 @@
 # Compiled class file
 *.class
 
+.idea/**
+.DS_Store
+**/target/**
+
 # Log file
 *.log
 
@@ -11,6 +15,7 @@
 .mtj.tmp/
 
 # Package Files #
+!.mvn/wrapper/maven-wrapper.jar
 *.jar
 *.war
 *.nar
